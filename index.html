@@ -4,28 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Gaming Webpage</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>My Gaming Webpage:</h1>
-    <p>A webpage housing my personal project where I am practicing HTML, CSS, and Javascript by doing various things related to gaming.</p>
-
+    <div id="header-container">
+        <h1>My Gaming Webpage:</h1>
+        <p>A webpage housing my personal project where I am practicing HTML, CSS, and Javascript by doing various things related to gaming.</p>
+    </div>
     <!-- Eventually I would like this to have it's own scroll bar and only take up a certain amount of viewport -->
+    <div id="reviews-container">
     <h2>Reviews:</h2>
     <p>Reviews of various games, including Playtime, Achievement Progress, and Rating</p>
 
-    <ul>
-        <li><a href="reviews/resident_evil_requiem.html">Resident Evil Requiem Review</a></li>
-        <li><a href="reviews/escape_the_backrooms.html">Escape the Backrooms Review</a></li>
-        <li><a href="reviews/elden_ring_nightreign.html">Elden Ring Nightreign Review</a></li>
-    </ul>
+        <div id="reviews-cards-container">
+            <div class="review-card">
+                <a href="reviews/resident_evil_requiem.html"><img src="/images/Resident_Evil_Requiem_Cover_Art.jpg" alt="Resident Evil Requiem cover art"></a>
+            </div>
+            <div class="review-card">
+                <a href="reviews/escape_the_backrooms.html"><img src="/images/Escape_The_Backrooms_Steam_Library_Image.png" alt="Escape the Backrooms cover art"></a>
+            </div>
+            <div class="review-card">
+                <a href="reviews/elden_ring_nightreign.html"><img src="/images/Elden_Ring_Nightreign_cover_art.png" alt="Elden Ring Nightreign cover art"></a>
+            </div>
+            
+            
+        </div>
 
+    </div>
     <!-- Eventually force this section to the bottom of the viewport -->
-    <h2>Contacts and Socials:</h2>
-    <ul>
-        <li><a href="https://www.youtube.com/@TheGreatDargon">Youtube</a></li>
-        <li><a href="https://github.com/TheGreatDargon">Github</a></li>
-        <li><a href="https://steamcommunity.com/profiles/76561198117077670/">Steam</a></li>
-        <li><a href="mailto:ventus950@gmail.com">Email</a></li>
-    </ul>
+    <div id="footer-container">
+        <h2>Contacts and Socials:</h2>
+        <ul>
+            <li><a href="https://www.youtube.com/@TheGreatDargon">Youtube</a></li>
+            <li><a href="https://github.com/TheGreatDargon">Github</a></li>
+            <li><a href="https://steamcommunity.com/profiles/76561198117077670/">Steam</a></li>
+            <li><a href="mailto:ventus950@gmail.com">Email</a></li>
+        </ul>
+    </div>
 </body>
 </html>

@@ -1,0 +1,34 @@
+h2, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {
+    background-color: #AEC6CF;
+}
+
+#header-container {
+    background-color: #E8A87C;
+}
+
+#reviews-container {
+    background-color: #AEC6CF;
+}
+
+#reviews-cards-container {
+    display: flex;
+    gap: 20px;
+}
+
+.review-card {
+    padding: 10px;
+}
+
+.review-card img {
+    width: 273px;
+    height: 365px;
+}
+
+#footer-container {
+    background-color: #C8A8D8;
+}

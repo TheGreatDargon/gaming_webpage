@@ -7,39 +7,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="header-container">
-        <h1>My Gaming Webpage:</h1>
-        <p>A webpage housing my personal project where I am practicing HTML, CSS, and Javascript by doing various things related to gaming.</p>
-    </div>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">My Gaming Webpage</a>
+            <div class="nav-links">
+                <a href="./reviews/reviews.html">Read a Review</a>
+                <a href="./games/games.html">Games I have Played</a>
+                <a href="./suggest/suggest_a_game.html">Suggest a Game</a>
+            </div>
+        </nav>
+    </header>
     <!-- Eventually I would like this to have it's own scroll bar and only take up a certain amount of viewport -->
-    <div id="reviews-container">
-    <h2>Reviews:</h2>
-    <p>Reviews of various games, including Playtime, Achievement Progress, and Rating</p>
-
-        <div id="reviews-cards-container">
-            <div class="review-card">
-                <a href="reviews/resident_evil_requiem.html"><img src="./images/Resident_Evil_Requiem_cover_art.jpg" alt="Resident Evil Requiem cover art"></a>
-            </div>
-            <div class="review-card">
-                <a href="reviews/escape_the_backrooms.html"><img src="./images/Escape_The_Backrooms_Steam_Library_Image.png" alt="Escape the Backrooms cover art"></a>
-            </div>
-            <div class="review-card">
-                <a href="reviews/elden_ring_nightreign.html"><img src="./images/Elden_Ring_Nightreign_Cover_Art.png" alt="Elden Ring Nightreign cover art"></a>
-            </div>
-            
-            
-        </div>
-
-    </div>
+    <main>
+        <p>My Bio Goes here.</p>
+    </main>
     <!-- Eventually force this section to the bottom of the viewport -->
-    <div id="footer-container">
+    <footer>
         <h2>Contacts and Socials:</h2>
-        <div id="contact-info">
-            <a href="https://www.youtube.com/@TheGreatDargon">Youtube</a>
-            <li><a href="https://github.com/TheGreatDargon">Github</a></li>
-            <li><a href="https://steamcommunity.com/profiles/76561198117077670/">Steam</a>
-            <li><a href="mailto:ventus950@gmail.com">Email</a></li>
-        </div>
-    </div>
+        <nav>
+            <a href="https://www.youtube.com/@TheGreatDargon"><img src="./images/youtube_icon.png" alt="Youtube Icon Link"> Youtube</a>
+            <a href="https://github.com/TheGreatDargon"><img src="./images/github_icon.png" alt="Github Icon Link"> Github</a>
+            <a href="https://steamcommunity.com/profiles/76561198117077670/"><img src="./images/steam_icon.png" alt="Steam Icon Link">Steam</a>
+            <a href="mailto:ventus950@gmail.com"><img src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_dark_2x_r7.png" alt="Email Icon Link"></a>
+        </nav>
+    </footer>
 </body>
 </html>

@@ -5,15 +5,52 @@ h2, p {
 
 body {
     display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 0;
     background-color: #AEC6CF;
 }
 
-#header-container {
+header {
     background-color: #E8A87C;
 }
 
-#reviews-container {
+header nav {
+    display: flex;
+}
+header nav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+header a:hover {
+  background-color: #e7a27b;
+  color: black;
+}
+header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+header nav .nav-links {
+    margin-left: auto;
+}
+
+
+
+main {
     background-color: #AEC6CF;
+    padding: 20px;
+    flex: 1 0 auto; 
 }
 
 #reviews-cards-container {
@@ -30,7 +67,35 @@ body {
     height: 365px;
 }
 
-#footer-container {
+
+
+footer {
     display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    align-items: center;
     background-color: #C8A8D8;
+}
+
+footer h2 {
+    margin-right:auto;
+}
+
+footer img {
+    height: 32px;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    color: black;
+}
+
+footer nav a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
 }

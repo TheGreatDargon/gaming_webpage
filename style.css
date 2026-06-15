@@ -4,6 +4,7 @@ h2, p {
 }
 
 body {
+    display: flex;
     background-color: #AEC6CF;
 }
 
@@ -30,5 +31,6 @@ body {
 }
 
 #footer-container {
+    display: flex;
     background-color: #C8A8D8;
 }

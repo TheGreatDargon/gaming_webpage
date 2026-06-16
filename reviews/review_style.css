@@ -13,14 +13,16 @@ input {
 }
 
 #reviews-cards-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    gap: 40px;
     height: inherit;
     overflow: auto;
 }
 
 .review-card {
+    border-radius: 25px;
     padding: 10px;
 }
 

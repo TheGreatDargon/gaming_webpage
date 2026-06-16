@@ -1,0 +1,31 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+input {
+    padding: 8px;
+    border-radius: 25px;
+    width: 30vw;
+}
+
+#reviews-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: inherit;
+    overflow: auto;
+}
+
+.review-card {
+    padding: 10px;
+}
+
+.review-card img {
+    border-radius: 25px;
+    width: 273px;
+    height: 365px;
+}

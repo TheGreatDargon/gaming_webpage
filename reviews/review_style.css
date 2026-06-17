@@ -33,6 +33,11 @@ main div {
     height:auto;
 }
 
+main p {
+    align-self: center;
+    width: 50%;
+}
+
 .review-card img {
     border-radius: 25px;
     width: 273px;
